@@ -36,9 +36,11 @@ If you prefer to use jupyter notebook, from your terminal run:
 
    ```
    conda activate zarr_demo_v2 or zarr_demo_v3
-
+   ```
+   ``` 
    python -m ipykernel install --user --name zarr_demo_v3 --display-name "zarr_demo_v3"
-
+   ```
+   ```
    jupyter lab
    ```
 Open the `zarr_demo.ipynb` notebook from JupyterLab.
