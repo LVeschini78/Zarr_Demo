@@ -1,0 +1,15 @@
+name: zarr_demo_v2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10 
+  - tqdm
+  - multiprocess
+  - zarr # From python 3.11 zarr should istall version 3.0.0 supporting zarr3 specification
+  - numpy
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+    - pillow
