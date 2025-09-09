@@ -2,6 +2,13 @@
 
 This project demonstrates how to use the Zarr library for chunked, compressed, N-dimensional arrays in Python.
 
+# Zarr basics
+
+Zarr is a library for chunked, compressed, N-dimensional arrays in Python. It provides a simple and efficient way to store and manipulate large datasets.
+It supports various storage backends, including local file systems and cloud storage.
+
+![Zarr Terminology](https://zarr-specs.readthedocs.io/en/latest/_images/terminology-hierarchy.excalidraw.png)
+
 ## Features
 - Create a Zarr array
 - Write data to a Zarr array
