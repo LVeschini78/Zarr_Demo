@@ -10,9 +10,12 @@ It supports various storage backends, including local file systems and cloud sto
 ![Zarr Terminology](https://zarr-specs.readthedocs.io/en/latest/_images/terminology-hierarchy.excalidraw.png)
 
 ## Features
-- Create a Zarr array
-- Write data to a Zarr array
-- Read data from a Zarr array
+- Create arrays and groups in a Zarr store
+- Store/read JSON metadata via attributes
+- Configure chunking and compression (codec pipeline)
+- Work with ZIP stores
+- Managing a Zarr store with a dedicated manager class
+- Exercise: Use Zarr in a PyTorch DataLoader (https://docs.pytorch.org/tutorials/beginner/basics/data_tutorial.html)
 
 ## Requirements
 - Python >3.7 (zarr v2) or >=3.11 (zarr v3)
